@@ -18,7 +18,7 @@ Example:
 
 The bit at the position 0 represents the parity in this case.
 
-![matrix1](resources/matrix1.png)
+![matrix1|50](resources/matrix1.png)
 
 There are 6 (1's) so the parity (bit 0) is 0.
 
