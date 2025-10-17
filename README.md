@@ -18,10 +18,12 @@ Example:
 
 The bit at the position 0,0 represents the parity in this case.
 
+```
 |$0$|0|`1`|`1`|
 |`1`|0|`1`|0|
 |0|0|`1`|0|
 |`1`|0|0|0|
+```
 
 There are 6 (1's) so the parity (bit 0,0) is 0.
 
