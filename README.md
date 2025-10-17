@@ -16,23 +16,15 @@ will be 0, but if the # is odd the Parity will be 1.
 
 Example:
 
-The bit at the position 0,0 represents the parity in this case.
+The bit at the position 0 represents the parity in this case.
 
-```
-|$0$|0|`1`|`1`|
-|`1`|0|`1`|0|
-|0|0|`1`|0|
-|`1`|0|0|0|
-```
+![matrix1](resources/matrix1.png)
 
-There are 6 (1's) so the parity (bit 0,0) is 0.
+There are 6 (1's) so the parity (bit 0) is 0.
 
-|$1$|0|`1`|`1`|
-|`1`|0|`1`|0|
-|0|0|`1`|0|
-|`1`|0|0|`1`|
+![matrix2](resources/matrix2.png)
 
-Here are 7 (1's) so the parity (bit 0,0) is 1.
+Here are 7 (1's) so the parity (bit 0) is 1.
 
 Therefore, if there were any change in one of the 15 bits, we would
 be certain that there is an error != 0, even though we do not know where it is.
