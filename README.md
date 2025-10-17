@@ -18,7 +18,7 @@ Example:
 
 The bit at the position 0 represents the parity in this case.
 
-![matrix1|50](resources/matrix1.png)
+![matrix1](resources/matrix1.png)
 
 There are 6 (1's) so the parity (bit 0) is 0.
 
@@ -28,3 +28,5 @@ Here are 7 (1's) so the parity (bit 0) is 1.
 
 Therefore, if there were any change in one of the 15 bits, we would
 be certain that there is an error != 0, even though we do not know where it is.
+
+![all hamming](resources/all.png)
