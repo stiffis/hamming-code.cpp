@@ -29,4 +29,4 @@ Here are 7 (1's) so the parity (bit 0) is 1.
 Therefore, if there were any change in one of the 15 bits, we would
 be certain that there is an error != 0, even though we do not know where it is.
 
-![all hamming](resources/all.png)
+![all hamming](resources/alli.png)
